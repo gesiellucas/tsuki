@@ -21,7 +21,7 @@ class DebtsController extends Controller
      */
     public function create()
     {
-        //
+        return view('debts.create');
     }
 
     /**
