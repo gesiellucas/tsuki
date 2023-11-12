@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::controller(DebtsController::class)->group(function() {
         Route::name('debts.')->group(function(){
             Route::get('/debts', 'index')->name('index');
+            Route::get('/create', 'create')->name('create');
         });
     });
 });

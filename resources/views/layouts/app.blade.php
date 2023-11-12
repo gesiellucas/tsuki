@@ -187,7 +187,6 @@
         <section class="bg-slate-200 w-full justify-self-stretch p-3">
 
             <div class="bg-slate-100 p-4">
-                <x-header.sub-header/>
                 {{ $slot }}
             </div>
         </section>

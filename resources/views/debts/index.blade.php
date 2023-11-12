@@ -1,13 +1,9 @@
 <x-app-layout>
-    @component('components.alert')
-        @slot('title')
-            Vai com Deus
-        @endslot
-        Nada a ver
-    @endcomponent
 
-    <h3>Componente</h3>
+    <header class="flex justify-between bg-slate-200 items-center p-4">
+        <h4 class="text-2xl">Débitos</h4>
 
-        Estou em paz
+        <x-form.button />
+    </header>
 
 </x-app-layout>
